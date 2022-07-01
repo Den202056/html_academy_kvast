@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -10,21 +11,25 @@ ul {
     padding: 0;
 }
 
+/*  Header style start */
 .page-header {
     margin: 0 auto;
     padding-top: 60px;
     width: 1280px;
     height: 550px;
     background-image: url("img/wheat-back.jpg");
-    background-position: bottom;
+    background-position-y: -250px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
     width: 800px;
     height: 336px;
-    background-color: violet;
 }
 
 .container-logo-nav {
@@ -34,16 +39,46 @@ ul {
 }
 
 .header-nav {
+    margin-top: 3px;
     display: flex;
     width: 600px;
+    height: 57px;
     justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.header-nav li {
-    font-family: Arial, Helvetica, sans-serif;
+.header-nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-size: 16px;
+    font-weight: bold;
     text-transform: uppercase;
+    /* padding: 19px 0; */
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
 
+.tagline {
+    margin: 0 auto;
+    height: 140px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+}
 
+.header-nav a:hover {
+    color: rgb(255, 203, 120);
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
 
+.header-nav a:active {
+    color: rgb(89, 68, 38);
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+/*  Header style end */
