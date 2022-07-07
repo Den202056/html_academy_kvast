@@ -55,7 +55,6 @@ ul {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    /* padding: 19px 0; */
     padding-top: 19px;
     padding-bottom: 19px;
 }
@@ -85,8 +84,9 @@ ul {
 
 
 /* Products style start */
-.part-products {
+.container-products-content {
     width: 800px;
+    height: 1000px;
     margin: 0 auto;
     padding-top: 47px;
 }
@@ -181,3 +181,106 @@ ul {
     margin-right: 20px;
 }
 /* Products style end */
+
+/* Advantages style start */
+.part-advantages {
+    background-color: #ffcb78;
+}
+
+.advantages-container {
+    display: flex;
+    width: 1010px;
+    height: 410px;
+    margin:auto auto;
+}
+
+.advantages-list {
+    display: flex;
+    width: 1010px;
+    height: 240px;
+    margin:auto auto;
+}
+
+.advantages-list li:nth-child(1) {
+    width: 30%;
+}
+
+.advantages-list li:nth-child(2) {
+    width: 40%;
+    border-left: 1px solid #636f51;
+    border-right: 1px solid #636f51;
+}
+
+.advantages-list li:nth-child(3) {
+    width: 30%;
+}
+
+.advantages-list-item-1 {
+    position: relative;
+    padding-top: 99px;
+}
+
+.advantages-list-item-2 {
+    position: relative;
+    padding-top: 98px;
+    padding-left: 95px;
+}
+
+.advantages-list-item-3 {
+    position: relative;
+    padding-top: 98px;
+    padding-left: 95px;
+}
+
+.advantages-list-item-1::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-image: url("/img/icon-brew.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 68px;
+    top: 0px;
+}
+
+.advantages-list-item-2::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-image: url("/img/icon-matreshka.png");
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 65px;
+    top: 0px;
+}
+
+.advantages-list-item-3::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-image: url("/img/icon-thumbsup.png");
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 58px;
+    top: 0px;
+}
+
+.advantages-list h2 {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.advantages-list p {
+    margin: 0;
+    color: #1a1a1a;
+    font-size: 16px;
+    width: 210px;
+    line-height: 1.8;
+}
+/* Advantages style end */
+
+/* History style start */
+
+/* History style end */
