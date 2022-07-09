@@ -159,7 +159,7 @@ ul {
     margin-bottom: 70px;
 }
 
-.product-item  a:nth-child(even) {
+.product-item a:nth-child(even) {
     text-decoration: none;
     text-transform: uppercase;
     color: #834700;
@@ -170,7 +170,7 @@ ul {
     margin-left: 33px;
 }
 
-.product-item  a:nth-child(odd) {
+.product-item a:nth-child(odd) {
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
@@ -180,7 +180,27 @@ ul {
     border: 2px solid #834700;
     margin-right: 20px;
 }
+
+.product-item a:nth-child(even):hover {
+    color: #3d2402;
+    border: 2px solid #3d2402;
+}
+
+.product-item a:nth-child(even):active {
+    color: #d2c3b2;
+    border: 2px solid #d2c3b2;
+}
+
+.product-item a:nth-child(odd):hover {
+    background-color: #6a3900;
+}
+
+.product-item a:nth-child(odd):active {
+    color: #9d836f;
+    background-color: #6a3900;
+}
 /* Products style end */
+
 
 /* Advantages style start */
 .part-advantages {
@@ -281,6 +301,90 @@ ul {
 }
 /* Advantages style end */
 
-/* History style start */
 
+/* History style start */
+.part-history {
+    margin-top: 80px;
+}
+
+.history-container {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 800px;
+    height: 520px;
+}
+
+.history-container h2 {
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.history-item {
+    position: relative;
+}
+
+.history-item p:nth-child(1) {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.history-item p:nth-child(2) {
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    height: 120px;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+.history-item-header {
+    position: relative;
+    top: 4px;  
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.history-item-link {
+    position: absolute;
+    top: 6px;
+    right: 1px;
+    font-size: 16px;
+}
+
+.history-item a {
+    color: #834700;
+}
+
+.history-item a:hover {
+    color: #6a3900;
+}
+
+.history-item a:active {
+    color: #ddd1c4;
+}
+
+.history-container .history-item:last-child {
+    margin-top: 60px;
+}
+
+.history-item img {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.del {
+    display: none;
+}
 /* History style end */
