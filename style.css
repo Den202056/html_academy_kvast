@@ -314,6 +314,7 @@ ul {
     flex-direction: column;
     width: 800px;
     height: 520px;
+    margin-bottom: 80px;
 }
 
 .history-container h2 {
@@ -388,3 +389,95 @@ ul {
     display: none;
 }
 /* History style end */
+
+
+/* Press style start */
+.part-press {
+    /* margin-top: 80px; */
+    background-color: #ede5d9;
+    height: 480px;
+    padding-top: 80px;
+}
+
+.press-container {
+    margin: 0 auto;
+    width: 800px;
+    height: 310px;
+}
+
+.press-text {
+    position: relative;
+    margin-top: 75px;
+    height: 174px;
+}
+
+.press-text p:nth-child(1) {
+    margin: 0;
+    width: 690px;
+    height: 90px;
+    margin-bottom: 45px;
+}
+
+.press-text p:nth-child(1)::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-image: url("/img/quotes.png");
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 31px;
+    left: -100px;
+}
+
+.press-container h2 {
+    height: 52px;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.press-container p {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.press-text i {
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.press-text a {
+    color: #bfb9ae;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: 1px solid #a5a097;
+}
+
+.press-text a:hover {
+    color: #ffffff;
+    background-color: #a5a097;
+}
+
+.press-text a:active {
+    color: #b5b2ad;
+    background-color: #8f8a81;
+}
+/* Press style end */
+
+
+/* Assortment style start */
+
+/* Assortment style end */
+
+/* border: 3px solid red; */
