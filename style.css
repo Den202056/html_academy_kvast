@@ -477,7 +477,103 @@ ul {
 
 
 /* Assortment style start */
+.part-assortment {
+    padding-top: 90px;
+}
 
+.assortment-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+    height: 450px;
+}
+
+.assortment-container h2 {
+    margin: 0;
+    margin-bottom: 75px;
+    height: 52px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+
+.assortment-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.assortment-container td {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.assortment-container tr:nth-child(2) {
+    height: 67px;
+}
+
+.assortment-container tr:nth-child(3) {
+    height: 66px;
+}
+
+.assortment-container tr:nth-child(4) {
+    height: 69px;
+}
+
+.assortment-container tr:nth-child(5) {
+    height: 69px;
+}
+
+.assortment-container th {
+    height: 48px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #d3d3d3;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.assortment-container th:last-child {
+    text-align: right;
+}
+
+.assortment-container td {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.assortment-container td:nth-child(1) {
+    width: 400px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.assortment-container td:last-child {
+    text-align: right;
+}
+
+.assortment-container td:nth-child(2) {
+    width: 90px;
+}
+
+.assortment-container td:nth-child(3) {
+    width: 60px;
+}
+
+.assortment-container sup {
+    padding: 2px 5px;
+    font-size: 8px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 3px;
+    margin-left: 19px;
+}
 /* Assortment style end */
 
+
+/* Order style start */
+
+/* Order style end */
 /* border: 3px solid red; */
