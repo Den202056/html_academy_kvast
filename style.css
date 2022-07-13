@@ -15,7 +15,7 @@ ul {
 .part-header {
     margin: 0 auto;
     padding-top: 60px;
-    width: 1280px;
+    /* width: 1280px; */
     height: 550px;
     background-image: url("img/wheat-back.jpg");
     background-position-y: -250px;
@@ -714,7 +714,6 @@ ul {
     height: 262px;
     padding-top: 60px;
     background-color: #000000;
-    /* border: 3px solid red; */
 }
 
 .footer-container {
@@ -724,19 +723,17 @@ ul {
     margin: 0 auto;
     width: 1016px;
     height: 191px;
-    /* border: 3px solid red; */
 }
 
 .footer-logo-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 3px solid red; */
 }
 
 .footer-nav {
-    margin-top: 3px;
-    margin-right: 105px;
+    margin-right: 107px;
+    margin-bottom: 2px;
     display: flex;
     width: 600px;
     height: 57px;
@@ -744,7 +741,28 @@ ul {
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    /* border: 3px solid red; */
+}
+
+.footer-nav a {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-nav a:hover {
+    color: rgb(255, 203, 120);
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.footer-nav a:active {
+    color: rgb(89, 68, 38);
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 
 .footer-logo-nav img {
@@ -755,21 +773,125 @@ ul {
     display: flex;
     height: 68px;
     justify-content: space-between;
-    /* border: 3px solid red; */
+}
+
+.social-container p {
+    color: #989898;
 }
 
 .social-container p:nth-child(1) {
+    position: relative;
+    width: 210px;
     height: 100%;
     margin: 0;
-    /* border: 3px solid red; */
+    font-size: 0px;
 }
 
+.social-container p:nth-child(1) a:nth-child(1)::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-image: url("/img/icon-insta.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 32px 35px;
+    background-color: #181818;
+    border: 1px solid #322d24;
+}
 
+.social-container p:nth-child(1) a:nth-child(1):hover::before {
+    border: 1px solid #605037;
+}
+
+.social-container p:nth-child(1) a:nth-child(1):active::before {
+    filter: brightness(50%);
+}
+
+.social-container p:nth-child(1) a:nth-child(2)::before {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    content: "";
+    background-image: url("/img/icon-fb.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 32px 35px;
+    background-color: #181818;
+    border: 1px solid #322d24;
+}
+
+.social-container p:nth-child(1) a:nth-child(2):hover::before {
+    border: 1px solid #605037;
+}
+
+.social-container p:nth-child(1) a:nth-child(2):active::before {
+    filter: brightness(50%);
+}
+
+.social-container p:nth-child(1) a:nth-child(3)::before {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    content: "";
+    background-image: url("/img/icon-vk.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 32px 35px;
+    background-color: #181818;
+    border: 1px solid #322d24;
+}
+
+.social-container p:nth-child(1) a:nth-child(3):hover::before {
+    border: 1px solid #605037;
+}
+
+.social-container p:nth-child(1) a:nth-child(3):active::before {
+    filter: brightness(50%);
+}
+
+.social-container p:nth-child(2) {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    margin-left: -45px;
+    line-height: 1.4;
+}
 
 .social-container p:nth-child(3) {
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    width: 305px;
     height: 100%;
     margin: 0;
-    /* border: 3px solid red; */
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.social-container p:nth-child(3) a {
+    color: #989898;
+    text-decoration: none;
+}
+
+.social-container p:nth-child(3) span {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.social-container img {
+    margin-left: 8px;
+    padding: 14px 22px;
+    background-color: #181818;
+    border: 1px solid #322d24;
+}
+
+.social-container img:hover {
+    border: 1px solid #605037;
+}
+
+.social-container img:active {
+    filter: brightness(50%);
 }
 /* Footer style end */
-/* border: 3px solid red; */
